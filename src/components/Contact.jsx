@@ -26,6 +26,7 @@ const Contact = () => {
           </a>
           <a
             href="mailto:nutrifabi@gmail.com"
+            target="_blank"
             className="bg-earth-warm shadow-lg rounded-2xl p-6 flex flex-col items-center transition hover:shadow-xl hover:scale-105"
           >
             <ion-icon name="mail-outline" class="text-earth-mid hover:text-earth-deep w-8 h-8"></ion-icon>
