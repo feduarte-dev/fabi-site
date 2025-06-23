@@ -8,6 +8,7 @@ export default function Navbar() {
     { name: "Sobre", href: "#about" },
     { name: "Serviços", href: "#services" },
     { name: "Contato", href: "#contact" },
+    { name: "Downloads", href: "#downloads" },
   ];
   const rightButtons = [
     {
@@ -29,7 +30,6 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 text-xl:px-8">
         <div className="flex justify-between h-28 items-center">
           <div className="flex items-center space-x-4">
-            {/* Mobile burger button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="md:hidden p-2 rounded-md"
@@ -59,7 +59,6 @@ export default function Navbar() {
                 )}
               </svg>
             </button>
-            {/* Desktop left buttons */}
             <div className="hidden md:flex space-x-4">
               {leftButtons.map((button) => (
                 <a
@@ -72,11 +71,9 @@ export default function Navbar() {
               ))}
             </div>
           </div>
-          {/* Logo */}
           <div className="flex-shrink-0">
             <img className="h-16 w-auto" src={logo} alt="Logo" />
           </div>
-          {/* Desktop right buttons */}
           <div className="hidden md:flex items-center space-x-4 text-xl">
             {rightButtons.map((button) => (
               <a
@@ -95,7 +92,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      {/* Mobile top buttons */}
       {isOpen && (
         <div className="md:hidden bg-green-light px-2 pt-2 pb-3 space-y-1 shadow-inner">
           {leftButtons.map((button) => (
@@ -108,7 +104,6 @@ export default function Navbar() {
               {button.name}
             </a>
           ))}
-          {/* Mobile bottom buttons */}
           <div className="flex justify-center space-x-6 mt-4">
             {rightButtons.map((button) => (
               <a

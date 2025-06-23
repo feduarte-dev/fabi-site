@@ -1,5 +1,4 @@
 import ServiceCard from "./ServiceCard";
-import autism from '../assets/autismo.jpg';
 import bariatric from '../assets/bariatrica.jpg';
 import pregnancy from '../assets/gestante.jpg';
 import weightloss from '../assets/emagrecimento.jpg';
@@ -9,12 +8,6 @@ import paliative from '../assets/paliativo.jpg';
 import oncology from '../assets/oncologia.jpg';
 
 const services = [
-  {
-    title: 'Transtorno do Espectro Autista',
-    image: autism,
-    description: 'sample-text',
-    text: 'sample-text'
-  },
   {
     title: 'Gestantes e Crianças',
     image: pregnancy,
@@ -46,7 +39,7 @@ const services = [
     text: 'A nutrição enteral é uma forma de alimentação para pacientes que não podem se alimentar por via oral (boca), trata-se de uma dieta líquida, que pode ser administrada por meio de sonda posicionada no intestino ou no estômago, em ambiente hospitalar ou em casa. Uma dieta equilibrada nesse período melhora o estado nutricional, minimizando o risco de desnutrição.'
   },
   {
-    title: 'Cuidados Paliativos',
+    title: 'Saúde do Idoso',
     image: paliative,
     description: 'sample-text',
     text: 'sample-text'
@@ -66,7 +59,7 @@ export default function Services() {
         <h2 className="text-3xl font-bold text-earth-mid font-text">Serviços</h2>
         <p className="text-earth-mid mt-2 font-text">Conheça como posso te ajudar</p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 justify-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-screen-xl mx-auto px-4">
         {services.map((service, idx) => (
           <ServiceCard key={idx} {...service} />
         ))}

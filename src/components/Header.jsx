@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Header() {
   return (
-    <header className="bg-green-light py-6 text-center z-50 h-30 shadow-xl">
+    <header className="bg-green-light py-6 text-center z-50 h-30">
       <motion.header
         initial={{ x: -80, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}

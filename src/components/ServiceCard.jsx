@@ -10,7 +10,7 @@ export default function ServiceCard({ title, image, text }) {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.5 }}
       transition={{ duration: 1, ease: 'easeInOut' }}
-      className="w-full sm:w-72 aspect-[2/3] cursor-pointer"
+      className="w-full max-w-xs aspect-[2/3] cursor-pointer"
       onClick={() => setFlipped(!flipped)}
       style={{ perspective: 1000 }}
     >
@@ -20,7 +20,6 @@ export default function ServiceCard({ title, image, text }) {
         transition={{ duration: 0.8 }}
         style={{ transformStyle: 'preserve-3d' }}
       >
-        {/* Front */}
         <div
           className="absolute w-full h-full shadow-lg rounded-xl overflow-hidden"
           style={{
@@ -40,14 +39,18 @@ export default function ServiceCard({ title, image, text }) {
             }}
           >
             <div className="bg-black bg-opacity-50 p-2 rounded w-full">
-              <h3 className="text-lg sm:text-xl font-semibold text-white text-center font-text">
-                {title}
-              </h3>
+              <div className="flex items-center justify-center gap-2">
+                <h3 className="font-semibold text-white text-center font-text">
+                  {title}
+                </h3>
+                <button className="text-white text-sm sm:text-base flex items-center gap-1">
+                  <span className="text-lg sm:text-xl">→</span>
+                </button>
+              </div>
             </div>
           </motion.div>
         </div>
 
-        {/* Back */}
         <div
           className="absolute w-full h-full bg-earth-warm shadow-lg rounded-xl flex items-center justify-center p-4 overflow-hidden"
           style={{
