@@ -15,6 +15,7 @@ module.exports = {
         'green-light': '#D8E3D0',
         'green-deep': '#6D8B63',
         'earth-warm': '#feffed',
+        'new-earth-warm': '#fbfcea',
       },
     },
   },

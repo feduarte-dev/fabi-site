@@ -4,6 +4,7 @@ import profile2 from '../assets/profile2.png';
 export default function Education() {
   return (
     <section id="education" className="bg-earth-warm py-12 px-4 shadow-2xl">
+
       <motion.header
         initial={{ x: 80, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -47,6 +48,7 @@ export default function Education() {
           </p>
         </div>
       </motion.header>
+
     </section >
   );
 }

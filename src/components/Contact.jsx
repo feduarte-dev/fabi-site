@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
+import Rule from './Rule';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 px-4 bg-earth-warm/75">
+    <section id="contact" className="bg-earth-warm/75">
       <motion.header
         initial={{ x: -80, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -12,7 +13,7 @@ const Contact = () => {
       >
 
         <h2 className="text-3xl font-bold mb-8 text-earth-mid font-text">Agende sua consulta</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
           <a
             href="http://api.whatsapp.com/send?phone=5547988031135"
             target="_blank"
@@ -37,6 +38,7 @@ const Contact = () => {
           </a>
         </div>
       </motion.header>
+      <Rule fillColor="#D8E3D0" />
     </section>
   );
 };

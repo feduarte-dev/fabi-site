@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
+import Rule from './Rule';
 
 export default function Header() {
   return (
-    <session className="bg-green-light/75 py-6 text-center ">
+    <session className="bg-green-light/75 pt-6 text-center ">
       <motion.header
         initial={{ x: -80, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -28,9 +29,8 @@ export default function Header() {
             </button>
           </a>
         </div>
-
-
       </motion.header>
+      <Rule fillColor="#feffed" />
     </session>
   );
 }

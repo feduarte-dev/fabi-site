@@ -3,7 +3,7 @@ import profile from '../assets/profile.png';
 
 export default function About() {
   return (
-    <section id="about" className="bg-earth-warm py-12 px-4  shadow-2xl">
+    <section id="about" className="bg-new-earth-warm pt-12 px-4  shadow-2xl">
       <motion.header
         initial={{ x: 80, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -35,12 +35,11 @@ export default function About() {
         </div>
 
       </motion.header>
-      <div className="mt-24 text-center">
+      <div className="my-20 text-center">
         <a href='#contact'>
           <h2 className="text-3xl font-semibold text-earth-mid mb-4 font-text">
             Vamos agendar sua consulta?
           </h2>
-
         </a>
       </div>
     </section >
