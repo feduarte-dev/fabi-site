@@ -27,10 +27,10 @@ function App() {
       <Header/>
       <About/>
       <Services/>
-      <Schedule/>
       <Education/>
-      <UserInteraction/>
+      <Schedule/>
       <Contact/>
+      <UserInteraction/>
       <Footer/>
     </div>
   );

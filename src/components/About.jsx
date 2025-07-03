@@ -36,9 +36,12 @@ export default function About() {
 
       </motion.header>
       <div className="mt-24 text-center">
-        <h2 className="text-3xl font-semibold text-earth-mid mb-4 font-text">
-          Vamos agendar sua consulta?
-        </h2>
+        <a href='#contact'>
+          <h2 className="text-3xl font-semibold text-earth-mid mb-4 font-text">
+            Vamos agendar sua consulta?
+          </h2>
+
+        </a>
       </div>
     </section >
   );

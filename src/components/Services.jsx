@@ -1,11 +1,12 @@
 import ServiceCard from "./ServiceCard";
-import bariatric from '../assets/bariatrica.jpg';
-import pregnancy from '../assets/gestante.jpg';
-import weightloss from '../assets/emagrecimento.jpg';
+import bariatric from '../assets/bariatrica.png';
+import pregnancy from '../assets/gestante.png';
+import children from '../assets/criancas.png';
+import weightloss from '../assets/emagrecimento.png';
 import diabets from '../assets/diabetes.jpg';
 import enteral from '../assets/enteral.jpg';
-import paliative from '../assets/paliativo.jpg';
 import oncology from '../assets/oncologia.jpg';
+import elderly from '../assets/idoso.png';
 
 const services = [
   {
@@ -16,7 +17,7 @@ const services = [
   },
   {
     title: 'Crianças',
-    image: pregnancy,
+    image: children,
     description: 'sample-text',
     text: 'Desde a introdução alimentar até as fases do crescimento, a nutrição tem um papel essencial no desenvolvimento saudável da criança. Posso te ajudar a construir bons hábitos desde cedo, garantindo uma alimentação equilibrada e prevenindo problemas como obesidade infantil e diabetes no futuro.'
   },
@@ -46,7 +47,7 @@ const services = [
   },
   {
     title: 'Saúde do Idoso',
-    image: paliative,
+    image: elderly,
     description: 'sample-text',
     text: 'Foco na prevenção e controle de doenças comuns como hipertensão, diabetes e osteoporose, além da manutenção da massa muscular e suporte ao sistema imunológico para um envelhecimento ativo e saudável.'
   },

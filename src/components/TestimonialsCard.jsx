@@ -1,6 +1,6 @@
 export default function TestimonialsCard({ name, text }) {
     return (
-        <div className="bg-green-light rounded-xl shadow-md p-6 w-full max-w-md mx-auto text-center space-y-4">
+        <div className="bg-earth-warm rounded-xl shadow-md p-6 w-full max-w-md mx-auto text-center space-y-4">
             <div className="flex justify-center space-x-1">
                 {[...Array(5)].map((_, idx) => (
                     <svg

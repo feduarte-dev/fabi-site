@@ -16,15 +16,15 @@ export default function Header() {
         </h3>
 
         <div className='flex flex-col md:flex-row text-center justify-center'>
-          <a href="#about" >
+          <a href="#services" >
             <button className='md:mr-24 mt-4 md:px-10 md:py-4 px-6 py-2 bg-earth-warm/50 border border-earth-mid text-earth-mid rounded-lg hover:bg-earth-mid/70 transition duration-300 font-text hover:text-earth-warm font-medium'>
-              Sobre a Fabiana
+              Serviços
             </button>
           </a>
 
-          <a href="#services" >
+          <a href="#contact" >
             <button className='mb-12 mt-4 md:px-10 md:py-4 px-6 py-2 bg-earth-warm/50 border border-earth-mid text-earth-mid rounded-lg hover:bg-earth-mid/70 transition duration-300 font-text hover:text-earth-warm font-medium'>
-              Serviços
+              Agende sua consulta
             </button>
           </a>
         </div>

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import profile from '../assets/profile.png';
+import profile2 from '../assets/profile2.png';
 
 export default function Education() {
   return (
@@ -13,7 +13,7 @@ export default function Education() {
         <div className="flex justify-center">
           <img
             alt="Foto de Fabi Duarte"
-            src={profile}
+            src={profile2}
             className="w-full max-w-xs md:max-w-sm object-cover rounded-[1rem] mx-auto mt-6 md:mt-0"
             style={{
               filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.5))',

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 px-4 bg-green-light">
+    <section id="contact" className="py-16 px-4 bg-earth-warm/75">
       <motion.header
         initial={{ x: -80, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}

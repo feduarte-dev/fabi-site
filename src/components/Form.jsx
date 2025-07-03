@@ -51,7 +51,7 @@ export default function Form() {
     };
 
     return (
-        <section className="max-w-xl w-full my-12 px-4 sm:px-6 py-6 bg-green-light rounded-xl shadow-lg sm:ml-12 text-earth-mid">
+        <section className="max-w-xl w-full my-12 px-4 sm:px-6 py-6 bg-earth-warm rounded-xl shadow-lg sm:ml-12 text-earth-mid">
             <h2 className="text-2xl font-bold mb-4 text-center text-earth-mid font-text">Entre em contato</h2>
 
             <form onSubmit={handleSubmit} className="space-y-4 text-earth-mid">
@@ -62,7 +62,7 @@ export default function Form() {
                     value={formData.user}
                     onChange={handleChange}
                     required
-                    className="w-full p-2 border border-earth-mid rounded bg-green-light text-earth-mid placeholder:text-earth-mid"
+                    className="w-full p-2 border border-earth-mid rounded bg-earth-warm text-earth-mid placeholder:text-earth-mid"
                 />
 
                 <input
@@ -72,7 +72,7 @@ export default function Form() {
                     value={formData.age}
                     onChange={handleChange}
                     required
-                    className="w-full p-2 border border-earth-mid rounded bg-green-light text-earth-mid placeholder:text-earth-mid"
+                    className="w-full p-2 border border-earth-mid rounded bg-earth-warm text-earth-mid placeholder:text-earth-mid"
                 />
 
                 <select
@@ -80,7 +80,7 @@ export default function Form() {
                     value={formData.service}
                     onChange={handleChange}
                     required
-                    className="w-full p-2 border border-earth-mid rounded bg-green-light text-earth-mid"
+                    className="w-full p-2 border border-earth-mid rounded bg-earth-warm text-earth-mid"
                 >
                     {services.map((service, index) => (
                         <option key={index} value={service}>
@@ -96,7 +96,7 @@ export default function Form() {
                     value={formData.contact}
                     onChange={handleChange}
                     required
-                    className="w-full p-2 border border-earth-mid rounded bg-green-light text-earth-mid placeholder:text-earth-mid"
+                    className="w-full p-2 border border-earth-mid rounded bg-earth-warm text-earth-mid placeholder:text-earth-mid"
                 />
 
                 <textarea
@@ -105,14 +105,14 @@ export default function Form() {
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    className="w-full p-2 border border-earth-mid rounded bg-green-light text-earth-mid placeholder:text-earth-mid"
+                    className="w-full p-2 border border-earth-mid rounded bg-earth-warm text-earth-mid placeholder:text-earth-mid"
                 />
 
                 <button
                     type="submit"
                     className="w-full bg-earth-mid text-white p-2 rounded hover:bg-earth-deep transition"
                 >
-                    <span className="text-green-light" >
+                    <span className="text-earth-warm" >
                         Enviar
                     </span >
                 </button>

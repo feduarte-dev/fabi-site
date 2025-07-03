@@ -6,7 +6,7 @@ export default function Schedule() {
   const presencial = 'bbbbbbb'
 
   return (
-    <section id="agendamento" className="bg-earth-warm py-12 px-4 mx">
+    <section id="agendamento" className="bg-earth-warm/75 py-12 px-4 mx">
       <motion.header
         initial={{ x: 80, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}

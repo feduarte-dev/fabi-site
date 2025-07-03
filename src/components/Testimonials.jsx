@@ -58,7 +58,7 @@ export default function Testimonials() {
     };
 
     return (
-        <section id='testimonials' className="py-16 px-4 bg-earth-warm w-full flex flex-col items-center space-y-6">
+        <section id='testimonials' className="py-16 px-4 bg-green-light w-full flex flex-col items-center space-y-6">
             <h2 className="text-3xl font-bold mb-8 text-earth-mid font-text">Depoimentos</h2>
 
             <div className="relative w-full max-w-xl min-h-[250px] sm:max-h-[250px]">
