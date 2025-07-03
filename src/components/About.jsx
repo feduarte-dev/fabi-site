@@ -3,7 +3,7 @@ import profile from '../assets/profile.png';
 
 export default function About() {
   return (
-    <section id="about" className="bg-earth-warm/75 py-12 px-4  shadow-2xl">
+    <section id="about" className="bg-earth-warm py-12 px-4  shadow-2xl">
       <motion.header
         initial={{ x: 80, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}

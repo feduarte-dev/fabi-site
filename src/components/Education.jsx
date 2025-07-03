@@ -3,7 +3,7 @@ import profile from '../assets/profile.png';
 
 export default function Education() {
   return (
-    <section id="education" className="bg-earth-warm/75 py-12 px-4 shadow-2xl">
+    <section id="education" className="bg-earth-warm py-12 px-4 shadow-2xl">
       <motion.header
         initial={{ x: 80, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -33,7 +33,6 @@ export default function Education() {
             especializada em Nutrição Clínica.
             Graduada em Nutrição, pela Universidade Federal de Pelotas,
             especializada em Nutrição Clínica.
-
           </p>
           <p className="text-earth-mid text-lg leading-relaxed font-text">
             Tendo adquirido experiência ao longo dos 20 anos de profissão, posso

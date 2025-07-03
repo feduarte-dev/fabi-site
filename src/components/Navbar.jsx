@@ -26,7 +26,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-earth-warm shadow-xl w-full">
+    <nav className={isOpen ? 'md:bg-green-light/75 w-full bg-green-light/95' : 'md:bg-green-light/75 w-full bg-green-light/75'} >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 text-xl:px-8">
         <div className="flex justify-between h-28 items-center">
           <div className="flex items-center space-x-4">
@@ -93,7 +93,7 @@ export default function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden bg-green-light px-2 pt-2 pb-3 space-y-1 shadow-inner">
+        <div className="md:hidden  px-2 pt-2 pb-3 space-y-1 ">
           {leftButtons.map((button) => (
             <a
               key={button.name}
